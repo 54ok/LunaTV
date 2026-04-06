@@ -116,5 +116,6 @@
       "prettier -w"
     ]
   },
-  "packageManager": "pnpm@10.14.0"
+  "engines": {
+  "node": ">=20.0.0"
 }
