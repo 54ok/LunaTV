@@ -85,7 +85,6 @@
     "@types/node": "24.0.3",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.6",
-
     "@types/testing-library__jest-dom": "^5.14.9",
     "@types/xml2js": "^0.4.14",
     "@webgpu/types": "^0.1.69",
@@ -107,6 +106,9 @@
     "typescript": "^5.8.3",
     "webpack-obfuscator": "^3.5.1"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "eslint --max-warnings=0",
@@ -115,7 +117,5 @@
     "**/*.{json,css,scss,md,webmanifest}": [
       "prettier -w"
     ]
-  },
-  "engines": {
-  "node": ">=20.0.0"
+  }
 }
